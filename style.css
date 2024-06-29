@@ -3,6 +3,7 @@
 
 html {
     height: 100%vh;
+    background-color: hsl(30, 54%, 90%);
 }
 body{
     display: flex;
@@ -10,7 +11,6 @@ body{
     align-items: center;;
     font-family: 'Outfit','Young Serif',sans-serif;
     font-size: 16px;
-
     background-color: hsl(30, 54%, 90%);
 }
 h2 {
@@ -47,7 +47,7 @@ ol li::marker , b {
     font-weight: 600;
 }
 
-ol li  {
+ol li ,ul li {
     padding-left: 1em;
 }
 
