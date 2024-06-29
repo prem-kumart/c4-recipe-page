@@ -10,7 +10,7 @@ body{
     align-items: center;;
     font-family: 'Outfit','Young Serif',sans-serif;
     font-size: 16px;
-    height: 100%vh;
+
     background-color: hsl(30, 54%, 90%);
 }
 h2 {
@@ -62,6 +62,7 @@ ul , ol {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding-left:1.5em;
 
 }
 
