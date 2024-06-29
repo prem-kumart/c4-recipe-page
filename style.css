@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-html {
-    height: 100%vh;
+html,body {
     background-color: hsl(30, 54%, 90%);
+    height: 100%;
 }
-body{
+
+.main-body {
     display: flex;
     justify-content: center;
     align-items: center;;
     font-family: 'Outfit','Young Serif',sans-serif;
     font-size: 16px;
-    background-color: hsl(30, 54%, 90%);
-    margin: 0;
+    margin: 0; 
+
 }
+
 h2 {
     font-family:'Young Serif',serif;
     font-size: 40px;
