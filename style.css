@@ -124,6 +124,10 @@ article {
     margin: 0px
 }
 
+.nutrition-item b {
+   color: hsl(14, 45%, 36%);
+}
+
 @media only screen and (max-device-width: 375px) {
     main {
         width: 375px;
